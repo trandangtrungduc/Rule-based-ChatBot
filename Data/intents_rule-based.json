@@ -1,0 +1,21 @@
+{"intents": [
+        {"greet": ["hi", "how are you", "is anyone there", "hey", "hola", "hello", "good day", "how do you do", "what's up"],
+         "thanks": ["thank", "cheer", "you are too kind", "much obliged", "cheers"],
+         "refund_insurance": ["give back", "repay", "repayment", "refund", "reimbursement", "reimburse", "policy", "insurance", "indemnity", "assurance", "assure"],
+         "help": ["facilitate", "help oneself", "assistance", "supporter", "assistant", "serve", "help", "aid", "helper", "assist", "serving", "overhaul", "avail"],
+         "troubleshooting": ["trouble", "troubleshooting", "disquiet", "disturb", "difficulty", "disoblige", "perturb", "hassle", "inconvenience", "upset", "incommode", "unhinge", "disorder", "cark", 
+            "ail", "fuss", "worry", "distract", "bother", "pain", "put out", "problem", "discommode", "troubleshoot"],
+         "order": ["bargain", "purchase", "buy", "order"]   
+        }
+    ],
+ "responses": [
+        {"greet": "Hello! How can I help you?",
+         "refund_insurance": "If you want to exchange the product and get a refund, please contact one of the following 3 addresses: customer service counter in lobby A, phone number 0123456789 or email: cusomerservice@gmail.com.",
+         "thanks": "It was my pleasure",
+         "help": "I can assist you to check laptop information and issue invoices.",
+         "troubleshooting": "If you want to check and fix the product, please contact one of the following 3 addresses: customer service counter in lobby B, contact via phone number 0987654321 or email: technicalservice@gmail.com.",
+         "order": "Please tell me the laptop you want to buy, one of the following: Operation System, CPU, Ram, Memory, Origin, Screen Resolution, Inches.", 
+         "default": "I'm sorry? I don't get what you mean."
+        }
+    ]
+}
