@@ -1,7 +1,7 @@
 import sys
-sys.path.insert(0, 'E:/Project/ML_and_DL/CBD/Chatbot/')
+sys.path.insert(0, 'E:/Project/ML_and_DL/CBD/ChatBot/~/ParlAI/')
 
-from Configuration.parameter_constants import *
+from parlai_internal.agents.laptopbot.Configuration.parameter_constants import *
 from mysql.connector import Error
 import mysql.connector as msql
 import pandas as pd
@@ -78,28 +78,33 @@ class Query(Laptop):
                                user=self.user, password=self.password)
         self.count = 0
 
-    def query_ID(self, id):
+    def query_ID(self, id, monitor):
         cursor = self.db.cursor()
         query_id = "SELECT * FROM laptop_price_data WHERE laptop_ID = '%s'" % (
             id)
         try:
             cursor.execute(query_id)
             results = cursor.fetchall()
+            if results == []:
+                return "Not found"
             for row in results:
                 ID, Company, Product, TypeName, Inches = row[0], row[1], row[2], row[3], row[4]
                 ScreenResolution, Cpu, Ram, Memory = row[5], row[6], row[7], row[8]
                 GPU, OpSys, Weight, Price_euros = row[9], row[10], row[11], row[12]
                 laptop = Laptop(ID, Company, Product, TypeName, Inches, ScreenResolution,
                                 Cpu, Ram, Memory, GPU, OpSys, Weight, Price_euros)
-                self.count += 1
-                print("Laptop Specification {0}:".format(self.count))
-                print(laptop.info())
-                print('--------------------------------')
+                if monitor == 1:
+                    print("Laptop Specification:")
+                    print(laptop.info())
+                    print('--------------------------------')
+                else:
+                    print('--------------------------------')
         except:
             print("Error fetching data.")
+             
         finally:
-            self.count = 0
-            self.db.close()
+            return laptop.info()
+            
 
     def query_Company(self, Company):
         cursor = self.db.cursor()
@@ -405,9 +410,32 @@ class Query(Laptop):
         except:
             print("Error fetching data.")
         finally:
-            self.count = 0
             self.db.close()
         return df_order
+
+    def query_auto_Invoice(self, laptop_id):
+        restructure = []
+        cursor = self.db.cursor()
+        query_month = "SELECT Company, Product, Cpu, Ram, Memory, Price_euros FROM laptop_price_data WHERE laptop_ID = '%s' ORDER BY laptop_ID" % (
+            laptop_id)
+        try:
+            cursor.execute(query_month)
+            result = list(cursor.fetchall()[0])
+            restructure.append(result[0] + " - " + result[1])
+            if result[2][11] == 'i':
+                if result[4][6] == "S":
+                    restructure.append(result[2][11:19] + '\n' + result[3] + '/' + result[4])
+                else:
+                    restructure.append(result[2][11:19] + '\n' + result[3] + '/' + result[4][0:6])
+            else:
+                if result[4][6] == "S":
+                    restructure.append(result[2][0:14] + '\n' + result[3] + '/' + result[4])
+                else:
+                    restructure.append(result[2][0:14]+ '\n' + result[3] + '/' + result[4][0:6])
+            restructure.append(result[5])
+        except:
+            print("Error fetching data.")
+        return restructure
     
     def query_check_info(self, OS, typeLap, origin, inches):
         cursor = self.db.cursor()
@@ -429,7 +457,7 @@ class Query(Laptop):
             print("Error fetching data.")
         finally:
             self.count = 0
-            # self.db.close()
+            return laptop.info()
 
 
 if __name__ == '__main__':
@@ -450,8 +478,9 @@ if __name__ == '__main__':
     # WEIGHT = '1.37kg'                     # query_Weight
 
     query = Query(SERVER, DATABASE, USER, PASSWORD)
-    response = query.query_check_info("Windows 10", "2 in 1 Convertible", "Dell", "11.6")
+    response = query.query_auto_Invoice("14")
     print(response)
+ 
 
     """Database 2"""
     # DATABASE = DATABASE_ORDER

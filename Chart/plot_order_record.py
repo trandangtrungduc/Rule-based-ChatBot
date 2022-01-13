@@ -1,12 +1,12 @@
 import sys
-sys.path.insert(0, 'E:/Project/ML_and_DL/CBD/Chatbot/')
+sys.path.insert(0, 'E:/Project/ML_and_DL/CBD/ChatBot/~/ParlAI/')
 
 import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-from Configuration.parameter_constants import *
-from Database.function_retrieve_data import Query
+from parlai_internal.agents.laptopbot.Configuration.parameter_constants import *
+from parlai_internal.agents.laptopbot.Database.function_retrieve_data import Query
 
 
 def render_table(data, col_width=3.0, row_height=0.625, font_size=14,
@@ -26,7 +26,7 @@ def render_table(data, col_width=3.0, row_height=0.625, font_size=14,
             cell.set_text_props(weight='bold', color='w')
             cell.set_facecolor(header_color)
         else:
-            cell.set_facecolor(row_colors[k[0]%len(row_colors) ])
+            cell.set_facecolor(row_colors[k[0]%len(row_colors)])
     return ax.get_figure(), ax
 
 
@@ -36,9 +36,10 @@ def create_plot(month_query):
     Revenue = round(month_Revenue["Total"].sum(), 3)
     row_Revenue.append(Revenue)
     month_Revenue.loc[str(month_Revenue.shape[0])] = row_Revenue
+    # print(month_Revenue)
     # Table
     fig, ax = render_table(month_Revenue, header_columns=0, col_width=2.0)
-    fig.savefig("./Temp/table.png")
+    fig.savefig("./Temp/table_AR.png")
     # Chart 1
     quantity = month_query["Quantity"].apply(lambda x: int(x))
     plt.figure()
@@ -53,7 +54,7 @@ def create_plot(month_query):
     Type_Price_chart = plt.pie(Int_Price,labels=Type,autopct='%1.1f%%',shadow = True, explode=my_explode)
     plt.title('Money by ID')
     plt.axis('equal')
-    plt.savefig('./Temp/Type_Price_chart.png')
+    plt.savefig('./parlai_internal/agents/laptopbot/Temp/Type_Price_chart.png')
     
 
 if __name__ == '__main__':
@@ -62,7 +63,7 @@ if __name__ == '__main__':
     DATABASE = 'order_record'
     MONTH = 1
     query = Query(SERVER, DATABASE_ORDER, USER, PASSWORD)
-    month_query = query.query_auto_AR(MONTH)
+    month_query = query.query_auto_Analytic_Report(MONTH)
     create_plot(month_query)
 
     

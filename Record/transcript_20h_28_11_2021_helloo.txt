@@ -1,0 +1,5 @@
+Bot: Welcome helloo to the chatbot service.
+User: hello
+Bot: Please enter 'help' if you want to check information of laptop or enter 'invoice' if you want to create an invoice or enter '[EXIT]' if you want to end the conversation.
+User: hello
+Bot: Please enter 'help' if you want to check information of laptop or enter 'invoice' if you want to create an invoice or enter '[EXIT]' if you want to end the conversation.

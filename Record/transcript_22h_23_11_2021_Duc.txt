@@ -1,0 +1,407 @@
+Bot: Welcome Duc to the chatbot service.
+User: I need some help
+Bot: We have the following 9 categories: Windows 10, Window 10 S, Window 7, macOS, Mac OS X, No OS, Linux, Android, or Chrome
+ Please press from 1 to 9 for the respective categories above
+User: 1
+Bot: With type of laptop, we have the following 6 categories: 2 in 1 Convertible, Gaming, Notebook, Ultrabook, Netbook, Workstation.
+ Please press from 1 to 6 for the respective categories above
+User: 2
+Bot: With origin of laptop, we have the following 11 categories: Dell, Acer, Asus, HP, Lenovo, MSI, Razer
+ Please press from 1 to 7 for the respective categories above
+User: 1
+Bot: How many inches do you want the screen to be? (15.6, 17.3 inches)?
+ Please press key 1 to 2 for the respective categories above
+User: 1
+Bot: 
+- Laptop ID: 42
+- Company: Dell
+- Product: Inspiron 7577
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: IPS Panel Full HD 1920x1080
+- CPU: Intel Core i7 7700HQ 2.8GHz
+- Ram: 16GB
+- Memory: 256GB SSD +  1TB HDD
+- GPU: Nvidia GeForce GTX 1060
+- Operation System: Windows 10
+- Weight: 2.65kg
+- Price: 1499.0
+
+- Laptop ID: 87
+- Company: Dell
+- Product: Inspiron 7577
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: IPS Panel Full HD 1920x1080
+- CPU: Intel Core i7 7700HQ 2.8GHz
+- Ram: 16GB
+- Memory: 128GB SSD +  1TB HDD
+- GPU: Nvidia GeForce GTX 1050 Ti
+- Operation System: Windows 10
+- Weight: 2.65kg
+- Price: 1349.0
+
+- Laptop ID: 95
+- Company: Dell
+- Product: Inspiron 7577
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: Full HD 1920x1080
+- CPU: Intel Core i5 7300HQ 2.5GHz
+- Ram: 8GB
+- Memory: 256GB SSD
+- GPU: Nvidia GeForce GTX 1060
+- Operation System: Windows 10
+- Weight: 2.65kg
+- Price: 1195.0
+
+- Laptop ID: 153
+- Company: Dell
+- Product: Inspiron 5577
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: Full HD 1920x1080
+- CPU: Intel Core i7 7700HQ 2.8GHz
+- Ram: 16GB
+- Memory: 512GB SSD
+- GPU: Nvidia GeForce GTX 1050
+- Operation System: Windows 10
+- Weight: 2.56kg
+- Price: 1249.26
+
+- Laptop ID: 154
+- Company: Dell
+- Product: Inspiron 7567
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: Full HD 1920x1080
+- CPU: Intel Core i7 7700HQ 2.8GHz
+- Ram: 8GB
+- Memory: 1.0TB Hybrid
+- GPU: Nvidia GeForce GTX 1050
+- Operation System: Windows 10
+- Weight: 2.62kg
+- Price: 899.0
+
+- Laptop ID: 171
+- Company: Dell
+- Product: Inspiron 5577
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: Full HD 1920x1080
+- CPU: Intel Core i7 7700HQ 2.8GHz
+- Ram: 8GB
+- Memory: 128GB SSD +  1TB HDD
+- GPU: Nvidia GeForce GTX 1050
+- Operation System: Windows 10
+- Weight: 2.56kg
+- Price: 1060.49
+
+- Laptop ID: 204
+- Company: Dell
+- Product: Inspiron 7577
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: IPS Panel 4K Ultra HD 3840x2160
+- CPU: Intel Core i7 7700HQ 2.8GHz
+- Ram: 16GB
+- Memory: 512GB SSD +  1TB HDD
+- GPU: Nvidia GeForce GTX 1060
+- Operation System: Windows 10
+- Weight: 2.65kg
+- Price: 1845.0
+
+- Laptop ID: 248
+- Company: Dell
+- Product: Inspiron 5577
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: Full HD 1920x1080
+- CPU: Intel Core i5 7300HQ 2.5GHz
+- Ram: 8GB
+- Memory: 256GB SSD
+- GPU: Nvidia GeForce GTX 1050
+- Operation System: Windows 10
+- Weight: 2.56kg
+- Price: 879.0
+
+- Laptop ID: 363
+- Company: Dell
+- Product: Inspiron 7577
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: Full HD 1920x1080
+- CPU: Intel Core i5 7300HQ 2.5GHz
+- Ram: 8GB
+- Memory: 1TB HDD
+- GPU: Nvidia GeForce GTX 1050
+- Operation System: Windows 10
+- Weight: 2.65kg
+- Price: 999.0
+
+- Laptop ID: 432
+- Company: Dell
+- Product: Inspiron 7577
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: IPS Panel Full HD 1920x1080
+- CPU: Intel Core i7 7700HQ 2.8GHz
+- Ram: 8GB
+- Memory: 128GB SSD +  1TB HDD
+- GPU: Nvidia GeForce GTX 1050 Ti
+- Operation System: Windows 10
+- Weight: 2.62kg
+- Price: 1159.0
+
+- Laptop ID: 618
+- Company: Dell
+- Product: Inspiron 7559
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: Full HD 1920x1080
+- CPU: Intel Core i7 6700HQ 2.6GHz
+- Ram: 16GB
+- Memory: 1TB HDD
+- GPU: Nvidia GeForce GTX 960<U+039C>
+- Operation System: Windows 10
+- Weight: 2.59kg
+- Price: 879.01
+
+- Laptop ID: 639
+- Company: Dell
+- Product: Inspiron 7567
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: Full HD 1920x1080
+- CPU: Intel Core i7 7700HQ 2.8GHz
+- Ram: 16GB
+- Memory: 256GB SSD +  1TB HDD
+- GPU: Nvidia GeForce GTX 1050 Ti
+- Operation System: Windows 10
+- Weight: 2.62kg
+- Price: 1479.0
+
+- Laptop ID: 690
+- Company: Dell
+- Product: Alienware 15
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: Full HD 1920x1080
+- CPU: Intel Core i5 7300HQ 2.5GHz
+- Ram: 16GB
+- Memory: 128GB SSD +  1TB HDD
+- GPU: Nvidia GeForce GTX 1060
+- Operation System: Windows 10
+- Weight: 3.21kg
+- Price: 2051.0
+
+- Laptop ID: 693
+- Company: Dell
+- Product: Alienware 15
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: Full HD 1920x1080
+- CPU: Intel Core i7 7820HK 2.9GHz
+- Ram: 16GB
+- Memory: 256GB SSD +  1TB HDD
+- GPU: Nvidia GeForce GTX 1070
+- Operation System: Windows 10
+- Weight: 3.49kg
+- Price: 2813.75
+
+- Laptop ID: 708
+- Company: Dell
+- Product: Inspiron 5577
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: Full HD 1920x1080
+- CPU: Intel Core i5 7300HQ 2.5GHz
+- Ram: 8GB
+- Memory: 1TB HDD
+- GPU: Nvidia GeForce GTX 1050
+- Operation System: Windows 10
+- Weight: 2.56kg
+- Price: 819.0
+
+- Laptop ID: 767
+- Company: Dell
+- Product: Alienware 17
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: IPS Panel 4K Ultra HD 3840x2160
+- CPU: Intel Core i7 7700HQ 2.8GHz
+- Ram: 16GB
+- Memory: 256GB SSD +  1TB HDD
+- GPU: Nvidia GeForce GTX 1070
+- Operation System: Windows 10
+- Weight: 4.42kg
+- Price: 2868.99
+
+- Laptop ID: 776
+- Company: Dell
+- Product: Inspiron 7559
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: IPS Panel Touchscreen / 4K Ultra HD 3840x2160
+- CPU: Intel Core i7 6700HQ 2.6GHz
+- Ram: 16GB
+- Memory: 128GB SSD +  1TB HDD
+- GPU: Nvidia GeForce GTX 960M
+- Operation System: Windows 10
+- Weight: 2.72kg
+- Price: 1099.0
+
+- Laptop ID: 782
+- Company: Dell
+- Product: Inspiron 7567
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: Full HD 1920x1080
+- CPU: Intel Core i7 7700HQ 2.8GHz
+- Ram: 8GB
+- Memory: 1TB HDD
+- GPU: Nvidia GeForce GTX 1050
+- Operation System: Windows 10
+- Weight: 2.62kg
+- Price: 1099.0
+
+- Laptop ID: 798
+- Company: Dell
+- Product: Inspiron 7567
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: Full HD 1920x1080
+- CPU: Intel Core i5 7300HQ 2.5GHz
+- Ram: 8GB
+- Memory: 256GB SSD
+- GPU: Nvidia GeForce GTX 1050
+- Operation System: Windows 10
+- Weight: 2.62kg
+- Price: 985.0
+
+- Laptop ID: 817
+- Company: Dell
+- Product: Inspiron 7567
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: 4K Ultra HD 3840x2160
+- CPU: Intel Core i7 7700HQ 2.8GHz
+- Ram: 16GB
+- Memory: 512GB SSD
+- GPU: Nvidia GeForce GTX 1050 Ti
+- Operation System: Windows 10
+- Weight: 2.62kg
+- Price: 1679.0
+
+- Laptop ID: 844
+- Company: Dell
+- Product: Alienware 15
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: Full HD 1920x1080
+- CPU: Intel Core i7 7700HQ 2.8GHz
+- Ram: 16GB
+- Memory: 256GB SSD +  1TB HDD
+- GPU: Nvidia GeForce GTX 1070
+- Operation System: Windows 10
+- Weight: 3.21kg
+- Price: 2774.63
+
+- Laptop ID: 932
+- Company: Dell
+- Product: Inspiron 7567
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: Full HD 1920x1080
+- CPU: Intel Core i7 7700HQ 2.8GHz
+- Ram: 16GB
+- Memory: 128GB SSD +  1TB HDD
+- GPU: Nvidia GeForce GTX 1050 Ti
+- Operation System: Windows 10
+- Weight: 2.6kg
+- Price: 1349.0
+
+- Laptop ID: 1024
+- Company: Dell
+- Product: Inspiron 7567
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: Full HD 1920x1080
+- CPU: Intel Core i5 7300HQ 2.5GHz
+- Ram: 8GB
+- Memory: 1.0TB Hybrid
+- GPU: Nvidia GeForce GTX 1050
+- Operation System: Windows 10
+- Weight: 2.65kg
+- Price: 949.0
+
+- Laptop ID: 1083
+- Company: Dell
+- Product: Alienware 15
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: 4K Ultra HD 3840x2160
+- CPU: Intel Core i7 6700HQ 2.6GHz
+- Ram: 16GB
+- Memory: 256GB SSD +  1TB HDD
+- GPU: Nvidia GeForce GTX 970M
+- Operation System: Windows 10
+- Weight: 3.21kg
+- Price: 1329.0
+
+- Laptop ID: 1171
+- Company: Dell
+- Product: Inspiron 7567
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: Full HD 1920x1080
+- CPU: Intel Core i7 7700HQ 2.8GHz
+- Ram: 8GB
+- Memory: 1TB HDD
+- GPU: Nvidia GeForce GTX 1050Ti
+- Operation System: Windows 10
+- Weight: 2.62kg
+- Price: 1199.0
+
+- Laptop ID: 1183
+- Company: Dell
+- Product: Inspiron 7567
+- Type Name: Gaming
+- Inches: 15.6
+- Screen Resolution: 4K Ultra HD 3840x2160
+- CPU: Intel Core i7 7700HQ 2.8GHz
+- Ram: 8GB
+- Memory: 128GB SSD +  1TB HDD
+- GPU: Nvidia GeForce GTX 1050 Ti
+- Operation System: Windows 10
+- Weight: 2.62kg
+- Price: 1498.0
+
+User: I wanna print an invoice
+Bot: Please enter the ID of the laptop (limit from 1 to 1320) you want to create an invoice. If you don't know the ID of laptop, you can check the laptop information by typing 'help'.
+User: 1
+Bot: - Laptop ID: 1
+- Company: Apple
+- Product: MacBook Pro
+- Type Name: Ultrabook
+- Inches: 13.3
+- Screen Resolution: IPS Panel Retina Display 2560x1600
+- CPU: Intel Core i5 2.3GHz
+- Ram: 8GB
+- Memory: 128GB SSD
+- GPU: Intel Iris Plus Graphics 640
+- Operation System: macOS
+- Weight: 1.37kg
+- Price: 1339.69
+
+Please enter quantity for this laptop (limit from 1 to 100).
+User: 5
+Bot: You have successfully ordered 5 laptops with the above ID. Do you want to order another laptop? Please type 'Yes' or 'No'.
+User: Yes
+Bot: Please enter the ID of the laptop (limit from 1 to 1320) you want to create an invoice.
+User: 4
+User: 6
+Bot: You have successfully ordered 6 laptops with the above ID. Do you want to order another laptop? Please type 'Yes' or 'No'.
+User: No
+Bot: You have ordered 2 types of laptop. Thank you for using our service. 
+ Please enter 'help' if you want to check information of laptop or enter 'invoice' if you want to create an invoice or enter '[EXIT]' if you want to end the conversation.

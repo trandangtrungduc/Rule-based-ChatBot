@@ -1,8 +1,8 @@
 import sys
-sys.path.insert(0, 'E:/Project/ML_and_DL/CBD/Chatbot/')
+sys.path.insert(0, 'E:/Project/ML_and_DL/CBD/ChatBot/~/ParlAI/')
 
-from Configuration.parameter_constants import *
-from Configuration.notification import *
+from parlai_internal.agents.laptopbot.Configuration.parameter_constants import *
+from parlai_internal.agents.laptopbot.Configuration.notification import *
 from mysql.connector import Error
 import mysql.connector as msql
 import pandas as pd
@@ -10,7 +10,7 @@ import pandas as pd
 
 
 """ Import data from csv """
-laptop_data = pd.read_csv('./Data/laptop_price.csv',
+laptop_data = pd.read_csv('./parlai_internal/agents/laptopbot/Data/laptop_price.csv',
                           index_col=False, delimiter=',')
 
 """ Create database on local """
