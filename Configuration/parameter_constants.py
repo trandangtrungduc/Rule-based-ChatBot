@@ -2,7 +2,7 @@
 
 SERVER = 'localhost'
 USER = 'root'
-PASSWORD = 'ddmbglncrlnctt79'
+PASSWORD = 'abc'
 DATABASE_LAPTOP = 'laptop_price'
 DATABASE_ORDER = 'order_record'
 DATABASE_AUTO_RECORD_ORDER = 'auto_record_order'
