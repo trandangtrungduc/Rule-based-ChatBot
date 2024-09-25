@@ -1,7 +1,7 @@
 # Chat Bot
 
 ## Local Demo
-  [Demo](Record/transcript_22h_23_11_2021_Duc.txt)
+  [Conversation](Record/transcript_22h_23_11_2021_Duc.txt), [Invoice](Report/Invoice.pdf), [Analytical Report](Report/Analytical_Report.pdf)
   
 ## Overview
   This is a rule-based chatbot model that extracts data related to the laptop. The main program is written in the file laptopbot.py.
